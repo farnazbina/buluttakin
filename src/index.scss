@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+$brand-700: #6941C6;
+$brand-100: #F4EBFF;
+$gray-900: #101828;
+$gray-600: #475467;
+$success-700: #027A48;
+$success-100: #D1FADF;
+$error-500: #F04438;
+$error-100: #FEE4E2;
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 100;
+  src: local('Roboto'), url(./assets/fonts/Roboto-Thin.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: local('Roboto'), url(./assets/fonts/Roboto-Light.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  src: local('Roboto'), url(./assets/fonts/Roboto-Regular.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: local('Roboto'), url(./assets/fonts/Roboto-Medium.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 700;
+  src: local('Roboto'), url(./assets/fonts/Roboto-Bold.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900;
+  src: local('Roboto'), url(./assets/fonts/Roboto-Black.ttf) format('ttf');
+}
+
+@font-face {
+  font-family: 'Josefin Sans';
+  font-weight: 700;
+  src: url(./assets/fonts/JosefinSans-Bold.ttf) format('ttf');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.josefin-font{
+  font-family: 'Josefin Sans', sans-serif;
+}
